@@ -1,11 +1,11 @@
 {
-  "name": "fixpack",
+  "name": "@oclif/fixpack",
   "description": "cli tool that cleans up package.json files.",
   "version": "2.3.0",
-  "author": "Henrik Joreteg <henrik@andyet.net>",
+  "author": "Jeff Dickey @jdxcode",
   "bin": "./bin/fixpack",
   "bugs": {
-    "url": "https://github.com/henrikjoreteg/fixpack/issues"
+    "url": "https://github.com/oclif/fixpack/issues"
   },
   "dependencies": {
     "alce": "1.2.0",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "standard": "^11.0.1"
   },
-  "homepage": "https://github.com/henrikjoreteg/fixpack",
+  "homepage": "https://github.com/oclif/fixpack",
   "keywords": [
     "cleanup",
     "package"
@@ -26,7 +26,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/henrikjoreteg/fixpack"
+    "url": "git://github.com/oclif/fixpack"
   },
   "scripts": {
     "test": "standard && standard bin/fixpack"
